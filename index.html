@@ -13,26 +13,58 @@
         
         <div id="fullpage">
             <div class="section s1">
-                
-
                 <div id="container-image">
                     <div id="left">
                         <h1>Denuncie Já</h1>
+                        <h3>Uma nova forma de mudar<br>a sua cidade</h3>
                     </div>
                     <img src="https://images.unsplash.com/photo-1517586979036-b7d1e86b3345?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" id="image-s1">
+                    <!-- TEST -->
+
+                    <div class="nav">
+                        <input type="checkbox">
+                          <span></span>
+                          <span></span>
+                          <div class="menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">História</a></li>
+                            <li><a href="#">Contatos</a></li>
+                          </div>
+                      </div>
                 </div>
 
                 
             </div>
 
-            <div class="section s2">
-                <h1>Sobre nós</h1>
-                <p>
-                    Aqui eu a ideia é falar rapidao sobre a startup
-                </p>
+            
+            <div class="section s2"> <!-- Sobre Nós --->
+                <div>
+                    <h1>Sobre Nós</h1>
+                </div>
+                
+                <div id="container-s2">
+                    <img src="./media/sobre.jpg">
+                </div>
+
+                <div id="sobre-nos">
+                    <div id="top-about">
+                        <h2>Nossa Visão</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae purus est. Nam finibus maximus massa, quis luctus elit iaculis nec. Suspendisse porttitor purus sit amet efficitur interdum. Aliquam et quam at tortor semper iaculis vel nec libero. Nulla non sapien et dui placerat suscipit et et dui. Sed tempor dapibus felis, sollicitudin laoreet mi ultrices placerat. Etiam accumsan pharetra felis. Maecenas tincidunt tincidunt elit. 
+                        </p>
+                    </div>
+
+                    <div id="middle-about">
+                        <h2>Como nós fazemos isso ?</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae purus est. Nam finibus maximus massa, quis luctus elit iaculis nec. Suspendisse porttitor purus sit amet efficitur interdum. Aliquam et quam at tortor semper iaculis vel nec libero. Nulla non sapien et dui placerat suscipit et et dui. Sed tempor dapibus felis, sollicitudin laoreet mi ultrices placerat. Etiam accumsan pharetra felis. Maecenas tincidunt tincidunt elit. 
+                        </p>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="section">
+            <div class="section s3">
                 <h1>Missão</h1>
                 <p>
                     Falar rapidao sobre smart City e o que nos vamos propor
@@ -45,6 +77,7 @@
         <script>
             new fullpage('#fullpage', {
                 autoScrolling:true,
+                slidesNavigation :true,
             })
         </script>
     </body>
