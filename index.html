@@ -1,84 +1,138 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Hello</title>
-        <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+<head>
+    <title>Denuncie Já</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="./css/style.css"/>
+  </head>
+  
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="#">
+          <h2>Denuncie <span style="background-color: red; 
+          color: #FFF;
+          border-radius: 200px;
+          width: 6%;
+          height: 8%;
+          display: inline-block;">Já</span></h2>
+        </a>
+        <ul class="nav">
+          <li><a href="#about">Sobre Nós</a></li>
+          <li><a href="#offers">História</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li class="search-mobile"><a href="#"><img src="https://svgshare.com/i/L1v.svg" alt="magnifier" class="magnifier"></a></li>
+        </ul>
+      </div>
+    </nav>
 
-        <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Montserrat">
-
-    </head>
-
-    <body>
-        
-        <div id="fullpage">
-            <div class="section s1">
-                <div id="container-image">
-                    <div id="left">
-                        <h1>Denuncie Já</h1>
-                        <h3>Uma nova forma de mudar<br>a sua cidade</h3>
-                    </div>
-                    <img src="https://images.unsplash.com/photo-1517586979036-b7d1e86b3345?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" id="image-s1">
-                    <!-- TEST -->
-
-                    <div class="nav">
-                        <input type="checkbox">
-                          <span></span>
-                          <span></span>
-                          <div class="menu">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">História</a></li>
-                            <li><a href="#">Contatos</a></li>
-                          </div>
-                      </div>
-                </div>
-
-                
-            </div>
-
-            
-            <div class="section s2"> <!-- Sobre Nós --->
-                <div>
-                    <h1>Sobre Nós</h1>
-                </div>
-                
-                <div id="container-s2">
-                    <img src="./media/sobre.jpg">
-                </div>
-
-                <div id="sobre-nos">
-                    <div id="top-about">
-                        <h2>Nossa Visão</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae purus est. Nam finibus maximus massa, quis luctus elit iaculis nec. Suspendisse porttitor purus sit amet efficitur interdum. Aliquam et quam at tortor semper iaculis vel nec libero. Nulla non sapien et dui placerat suscipit et et dui. Sed tempor dapibus felis, sollicitudin laoreet mi ultrices placerat. Etiam accumsan pharetra felis. Maecenas tincidunt tincidunt elit. 
-                        </p>
-                    </div>
-
-                    <div id="middle-about">
-                        <h2>Como nós fazemos isso ?</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae purus est. Nam finibus maximus massa, quis luctus elit iaculis nec. Suspendisse porttitor purus sit amet efficitur interdum. Aliquam et quam at tortor semper iaculis vel nec libero. Nulla non sapien et dui placerat suscipit et et dui. Sed tempor dapibus felis, sollicitudin laoreet mi ultrices placerat. Etiam accumsan pharetra felis. Maecenas tincidunt tincidunt elit. 
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="section s3">
-                <h1>Missão</h1>
-                <p>
-                    Falar rapidao sobre smart City e o que nos vamos propor
-                </p>
-            </div>
+    <!-- Showcase -->
+    <section class="section-a">
+      <div class="container">
+        <div>
+          <h1>Denuncie Já</h1>
+          <p>
+            Nós do Denincie Já somos uma startup que visa o
+            bem estar da população, nosso empenho está em 
+            poder trazer uma plataforma digital que traga para o povo 
+            a voz de forma rápida e efeiciente.
+          </p>
+          <a href="#" class="btn">Ver Mais</a>
         </div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1555356342-fa18a5da123f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="apple-watch" class="full"/>
+        </div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="watches-mobile" class="mobile"/>
+        </div>
+      </div>
+    </section>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script>
-        
-        <script>
-            new fullpage('#fullpage', {
-                autoScrolling:true,
-                slidesNavigation :true,
-            })
-        </script>
-    </body>
-</html>
+    <section class="section-b">
+      <div class="container">
+        <div>
+          <h4>Smart Cities</h4>
+          <p>
+            O contexto digital vem influenciado cada vez mais
+            a sociedade e seus meios, a ideia das Smart Cities
+            está ligada ao uso da técnologia e seus dados para
+            a melhoria da qualidade de vida da população, as
+            mudanção são diversas podendo ser na infraestrutura,
+            saúde, segurança ou educação.
+          </p>
+          <div class="dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+        <div>
+          <h4>Como nós iremos fazer ?</h4>
+          <p>
+            Nós do Denuncie Já criamos uma plataforma web e mobile
+            onde o cidadão poderá fazer a sua reclamação, as reclamações
+            são com relação a cidade como um buraco, lixo espalhado, segurança,
+            qualidade na saúde e educação.
+          </p>
+          <div class="dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+        <div>
+          <h4>Quais os benefícios ?</h4>
+          <p>
+            Nossa plataforma torna a comunicação entre população
+            e profeitura mais acessivel e rápida, fazendo ser possível
+            a população saber o que acontece de fato na sua cidade como
+            também ter acesso as respostas dos seus problemas.
+          </p>
+          <a href="#"
+            ><div class="line"></div>
+            Ler Mais</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="section-c">
+      <div class="container">
+        <div>
+          <h1>Mude sua cidade.</h1>
+          <h1>É Fácil. Rápido.</h1>
+          <h1>Começe Já.</h1>
+          <p>
+            Com o uso das mais altas tecnologias do mercado nossas
+            análises são rápidas e eficáz, conseguimos trazer para
+            os gorvernantes qualidade de informações por meio de
+            machine learning, inteligência artificial e análise de
+            dados.
+          </p>
+          <a href="#" class="btn">Consulte Agora</a>
+        </div>
+        <img src="https://images.unsplash.com/photo-1548783307-f63adc3f200b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="apple-watch" />
+      </div>
+    </section>
+
+    <section class="section-d">
+      <div class="overlay">
+        <div class="container">
+          <div></div>
+          <div>
+            <h1>Conheça a nossa equipe</h1>
+            <p>
+              A equipe surgiu em Marília interior do estado de São Paulo,
+              em uma inciativa de um projeto de Smart Cities proposto pelo
+              UNIVEM que visava tornar a cidade mais inteligentes e dinâmicas,
+              nós do Denuncie Já decidimos trazer para a população a voz que ela
+              precisava.
+            </p>
+            <a href="#" class="btn">Veja Mais</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  </html>
