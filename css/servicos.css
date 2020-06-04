@@ -200,7 +200,7 @@ input {
 .section-a p,
 .section-c p,
 .section-d p {
-  color: var(--dark-gray);
+  color: #000;
   padding-left: 20px;
   margin-top: 60px;
   margin-bottom: 40px;
